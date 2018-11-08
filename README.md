@@ -17,6 +17,8 @@
 - We will be using aws-sdk to communicate with s3
 
 ## S3 and aws-sdk demo
+- We will create a bucket and list buckets in S3 by using AWS-SDK
+![AWS Diagram](https://i.imgur.com/wxx5zw2.png)
 ---
 1. After creating your serverless boilerplate/template run
 ```
@@ -116,3 +118,10 @@ functions:
 ## Class Excercise
 - Make a `GET` request to get All Buckets data
 - Look through [AWS SDK for JavaScript](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#listBuckets-property) documentation to find the correct method
+
+## Resources
+[AWS.S3 — AWS SDK for JavaScript](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#getBucketWebsite-property)
+
+[AWS.S3 - AWS SDK - listObjects](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#listObjects-property)
+
+[What is Amazon S3?](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)
