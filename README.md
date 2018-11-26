@@ -90,11 +90,6 @@ functions:
           method: post
           cors: true
           integration: lambda
-          request:
-            passThrough: WHEN_NO_TEMPLATES
-            template:
-              application/x-www-form-urlencoded: '{ "body" : "$input.body" }'
-
 ```
 - This allows us to recieve data passed in through Postman
 4. Deploy serverless
